@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz-JavaScript Quiz</title>
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="stylesheet" href="./assets/quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section id = "header">
+        <div><a>Timer :</a> <a id="timerDisplay"></a></div>
+        <div><a>Scores :</a><a id="currentScores">0</a></div>
+      </section>
+      <section class="quiz">
+          <h2 id="question"></h2>
+          <div class="choiceContainer">
+            <p class="choicePrefix">A</p>
+            <p class="choiceContent" data-number="1"></p>
+          </div>
+          <div class="choiceContainer">
+            <p class="choicePrefix">B</p>
+            <p class="choiceContent" data-number="2"></p>
+          </div>
+          <div class="choiceContainer">
+            <p class="choicePrefix">C</p>
+            <p class="choiceContent"data-number="3"></p>
+          </div>
+          <div class="choiceContainer">
+            <p class="choicePrefix">D</p>
+            <p class="choiceContent"data-number="4"></p>
+          </div>
+      </section>
+      <p class= "btn" id="next">Next</p>
+    </div>
+  <script src="./assets/quiz.js"></script>
+  </body>
+</html>

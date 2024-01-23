@@ -1,0 +1,74 @@
+:root{
+    background-color:aliceblue;
+    font-size: 200%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto; /* to center the container horizontally by adding equal margin on the left and right sides.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.btn{
+    color: rgb(13, 5, 65);
+    font-size:xx-large;
+    border: 5px solid palevioletred;
+    background-color: beige;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 0 0 rgb(109, 56, 73);
+    transform: translateY(-1px);
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin: 5px;
+    width: 300px;
+    padding: 5px;
+    font-size: 50px;
+
+}
+
+#highScoresList{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.highestScores{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
